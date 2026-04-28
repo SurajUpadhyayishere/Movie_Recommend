@@ -1,0 +1,20 @@
+[project]
+name = "movie-recommendation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "fastapi",
+  "httpx",
+  "joblib",
+  "numpy",
+  "pandas",
+  "python-dotenv",
+  "scikit-learn",
+  "scipy",
+  "streamlit",
+  "uvicorn",
+  "watchdog>=6.0.0",
+]
+
